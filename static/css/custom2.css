@@ -195,8 +195,6 @@ padding:0px;
 
 #logo1-mobile{
 display: flex;
-position: fixed;
-widht: -webkit-fill-available;
 flex-direction: row;
 align-items: flex-end;
 justify-content: space-between;
