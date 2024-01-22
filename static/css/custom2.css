@@ -56,7 +56,7 @@ height: 400px;
 
 #corpao{
 display:flex;
-margin-top: 0%;
+margin-top: 20%;
 margin-left: 0%;
 padding:0px;
 align-items: center;
@@ -195,6 +195,8 @@ padding:0px;
 
 #logo1-mobile{
 display: flex;
+position: fixed;
+widht: 95%;
 flex-direction: row;
 align-items: flex-end;
 justify-content: space-between;
@@ -202,7 +204,6 @@ flex-wrap: nowrap;
 align-content: space-around;
 color: white;
 background-image:url(https://garden.spoonflower.com/c/2549936/p/f/m/lBF5XTJ1a4ox2-Pn8JMHJTIewOn2ZxIa3lkIv6Da2xNoZmC1yB8/Color%20Pop%20Doodle%20Dogs%2C%20%204%20inch%20x%208%20inch%20repeat%20scale%20Black%20Outline.jpg) ;
-height: 70px;
 border-bottom-right-radius: 10px 10px;
 border-bottom-left-radius: 10px 10px;
 background-color: aliceblue;
