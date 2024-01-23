@@ -11,8 +11,8 @@ body{
   
 #informacoes2{
     background-color: #e4d1cb;
-    margin-top: 60px;
-    padding: 3px;
+    margin-top: 70px;
+    padding: 2px;
     }
     
 #informacoes2 p{
@@ -37,35 +37,14 @@ body{
     }
     
    
-#informacoes3 h1{
-        text-align: center;
-        background-color: #e4d1cb;
-        font-family: 'FontAwesome';
-        }
 
-#informacoes3{
-       
-        }
-    
-#informacoes3{
-        background-color: #e4d1cb;
-        border-radius:10px;
-        margin: 4%;
-            
-        }
-            
-#informacoes3 p{
-        text-align: center;
-        background-color: #e4d1cb;
-        font-family: 'FontAwesome';
-        }    
     
     
     
 @media screen and (max-width: 12200px) {
 #informacoes2 {
         border-radius:10px;
-        margin: 30px;
+        margin: 9%;
     }
     
     
@@ -117,7 +96,55 @@ body{
         margin: 5%;
     }
     
-   
+#pai-divs{
+    display: flex;
+    width: inherit;
+    padding: 5%;
+    border-radius: 10px;
+    justify-content:space-around;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+#filho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 5%;
+    text-align: center;
+
     
+
+
+}
+
+#filho1{
+    border-radius: 10px;
+    padding: 1%;
+    margin: 3%;
+    box-shadow: 0 18px 18px 3px rgb(0, 0, 0, 0.8);
+
+}
+
+#filho2{
+    border-radius: 10px;
+    padding: 1%;
+    margin: 13%;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    background-color: #e4d1cb;
+    box-shadow: 0 18px 18px 3px rgb(0, 0, 0, 0.8);
+
+}
+
+}
+
+
     
-}   
+
