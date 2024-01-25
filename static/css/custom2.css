@@ -6,47 +6,33 @@
     }
     
 body{
-    background-color: #7b9aff9c;
+    background-color: #172b55;
     }
-  
-#informacoes2{
-    background-color: #e4d1cb;
-    margin-top: 70px;
-    padding: 2px;
-    }
-    
-#informacoes2 p{
-    text-align: center;
-    background-color: #e4d1cb;
-    font-family: 'FontAwesome';
-    }
-    
-#informacoes2 h1{
-    text-align: center;
-    background-color: #e4d1cb;
-    font-family: 'FontAwesome';
-    }
-    
-#inf{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: black;
-    padding: 2%;
-    background-color: #e4d1cb;
-    }
-    
-   
 
     
-    
-    
 @media screen and (max-width: 12200px) {
-#informacoes2 {
-        border-radius:10px;
-        margin: 9%;
+
+
+#blocos{
+        text-align: center;
+        padding: 10%;
+        border-radius: 10PX;
     }
-    
+#blocos4{
+        text-align: center;
+        padding: 10%;
+        border-radius: 10PX;
+    }    
+
+#blocos3{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        
+
+    }
     
 #corpo{
     justify-content: center;
@@ -65,30 +51,27 @@ body{
         background-color: #e4d1cb;
         align-items: center;
     }
+
         
 #logo-mobile{
     padding:0px;
-    }
     
+    }
 #logo1-mobile{
-    box-shadow: -5px 7px 6px -2px rgb(0 2 0);
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    top: -8px;
-    width: 97%;
-    border-radius: 10px;
-    background-image: url(https://garden.spoonflower.com/c/2549936/p/f/m/lBF5XTJ1a4ox2-Pn8JMHJTIewOn2ZxIa3lkIv6Da2xNoZmC1yB8/Color%20Pop%20Doodle%20Dogs%2C%20%204%20inch%20x%208%20inch%20repeat%20scale%20Black%20Outline.jpg);
-    align-items: center;
+    margin: -4%;
+        padding:0px;
+        position: fixed;
+        align-items: center;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        background-color: white;
+        border-radius: 10px;
     }
+            
+
     
-#achai-mobile{
-    box-shadow: 0 5px 6px 1px rgb(0, 0, 0, 0.8);
-    font-family: "Trirong", serif;
-    background-color: white;
-    border-radius: 10px;
-    padding: 2px;
-    }
+
    
    
 
@@ -123,11 +106,9 @@ body{
 }
 
 #filho1{
+    width: 40%;
+    margin: 2%;
     border-radius: 10px;
-    padding: 1%;
-    margin: 3%;
-    box-shadow: 0 18px 18px 3px rgb(0, 0, 0, 0.8);
-
 }
 
 #filho2{
@@ -145,6 +126,11 @@ body{
 
 }
 
-
-   
+#central2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+    
 
