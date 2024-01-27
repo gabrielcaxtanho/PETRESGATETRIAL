@@ -1,10 +1,13 @@
 *{
-
+    font-size: 10px;
     text-decoration: none;
     font-family: 'FontAwesome';
     color: white;
     
     }
+#logo1-mobile {
+    background-color: #172b55;
+}  
     
 body{
     background-color: #172b55;
@@ -66,7 +69,7 @@ body{
         display: flex;
         justify-content: flex-start;
         flex-wrap: nowrap;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.093);
         border-radius: 10px;
     }
             
